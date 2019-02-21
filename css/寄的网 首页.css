@@ -1,0 +1,108 @@
+*{margin: 0 ;padding: 0;}
+ul{list-style: none;}
+/*----------------用户信息--------------------------------------------------*/
+#box{width: 100%;height: 30px;background: silver;}
+#usernav{width: 800px;height: 30px;margin: auto;background: silver;line-height: 30px;}
+#usernavL{width: 200px;height: 100%;float: left;color:darkslategray;font-weight:600 ;}
+#usernavR{width:400px;height: 100%;float: right;}
+#usernavR>ul>li{float: left;height: 30px;text-align: center;margin: 0 10px;}
+#usernavR>ul>li:nth-child(1){}
+#usernavR>ul>li:nth-child(2){width: 60px;}
+#usernavR>ul>li:nth-child(3){width: 60px;}
+#usernavR>ul>li:hover{border-bottom: 2px solid  #E60111;color: #E60111;font-weight:600 ;cursor: pointer;}
+#usernavR>ul>li:nth-child(3):hover#buycar:after{background-position: -147px -150px;}
+
+#buycar{position: relative;}
+#buycar::after{content: ""; position: absolute;right: -20px;top: 2px;width: 25px;height: 25px;background: url(../img/01shouye/icon.png);background-position: -172px -149px;}
+
+#box1{width: 1200px;height: 130px;margin: auto;position: relative;}
+#box2{width: 100%;height: 50px;background: #e60111;}
+#box3{width: 100%;height: 450px;position: relative;overflow: hidden;margin: auto;}
+#box4{width: 100%;height: 20px;background: #e60111;}
+#box5{width: 100%;height: 650px;}
+#box6{width: 100%;height: 400px;background: #d5d5d5;}
+
+/*----------------搜索栏---------------------------------------------------*/
+#box1>img:nth-child(1){position: absolute;left: 0;top: 20px;cursor: pointer;}
+#box1>img:nth-child(3){position: absolute;right: 0;top: 5px;}
+#bgsearch{position: absolute;left: 350px;bottom: 50px; width: 500px;height: 30px;border:3px solid #ec3b3b;}
+#seL{float: left;width: 60px;height: 30px;color:#ec3b3b ;text-align: center;line-height: 25px;font-size:13px ;}
+#seR{float: right;width: 100px;height: 30px;background:#ec3b3b ;color: white;font-size:17px ;font-weight:700 ;text-align: center;line-height: 30px;}
+#seR:hover{background: red;cursor: pointer;}
+#setxt{width:340px;height: 30px;border: none;outline: none;}
+#seun{position: absolute;left: 50px;bottom: -30px;color:#ec3b3b; width: 300px;height: 20px;font-size: 14px;}
+#seun>span{margin-left: 10px;cursor: pointer;}
+#seun>span:hover{color: red;}
+/*----------------导航栏---------------------------------------------------*/
+.navlist{width:1200px;height: 50px;margin: auto;}
+.navlist>li:nth-child(1){position: relative;}
+.navlist>li{float: left;width:150px;height: 50px;color: white;line-height: 50px;text-align: center;}
+.navlist>li:hover{background:darkred;cursor: pointer;}
+.sidenav{background: white;color: brown;z-index: 999;position: absolute;}
+.sidenav>li{width:150px;height: 56px;}
+.sidenav>li:hover{background:darkred ;color: white;}
+
+/*----------------轮播图---------------------------------------------------*/
+#ssc{width:1450px ;margin: auto;height: 450px;overflow: hidden;}
+.scrolist{width: 4350px;height:450px;}
+
+.scrolist>li{float: left;width: 1450px;height: 450px;cursor: pointer;opacity: 0;transition:all 0.5s;}
+.scrolist>li:nth-child(1){background:url(../img/01shouye/1eeac649-e5cd-49c7-ad80-0d089025e7c5.jpg) ;background-size:cover ;}
+.scrolist>li:nth-child(2){background: url(../img/01shouye/7d6c75b7-5375-4b29-b132-00723bfff37a.jpg);background-size:cover ;}
+.scrolist>li:nth-child(3){background: url(../img/01shouye/feae4dc5-5e20-4f27-b340-b1a40e920288.jpg);background-size:cover ;}
+.cirbox{position: absolute;bottom: 0;left: 0;right: 0;margin: auto;width: 130px;height: 30px;}
+.cirbox>li{float: left; width: 30px;height: 30px;border-radius:50% ;background: whitesmoke;margin:0 5px;text-align: center;color: red;}
+
+/*----------------每日推荐---------------------------------------------------*/
+#newtitle{ width: 1200px;height: 50px;/*text-align:center;*/line-height: 50px;}
+#newtitle>span:first-child{margin-left: 450px;}
+#newtitle>span{display: inline;color: red;font-weight: 800;}
+#newtitle>h2{display: inline;margin: 0 30px;}
+#newcon{margin: auto; width: 1200px;height: 420px;}
+.newcon-list{width: 100%;height: 100%;}
+.newcon-list>li{float: left; width:280px ;height: 420px;margin:0 8px;text-align: center;border:1px solid silver ;background: white;}
+.newcon-list>li:hover{cursor: pointer;transform: translateY(-4px);box-shadow:0 0 20px 2px black;}
+.newcon-list>li>img{width: 100%;height:320px ;}
+.newcon-list>li>h2{padding: 5px;box-sizing: border-box;}
+.newcon-list>li>span{color: red;padding:10px;box-sizing: border-box;}
+/*----------------商家店铺---------------------------------------------------*/
+#bestitle{margin: auto; width: 1200px;height: 50px;line-height: 50px;text-align: center;}
+#bestitle>span{display: inline;color: gray;font-weight: 800;}
+#bestitle>h2{display: inline;margin: 0 30px;}
+#bescon{margin: auto;width: 1200px;height: 600px;}
+.bes-list{width: 100%;height: 100%;}
+.bes-list>li{float: left; width:280px;height:290px;margin:5px 10px;}
+.bes-list>li:hover{cursor: pointer;transform: scale(1.03,1.03);transition: 0.5s;}
+.bes-list>li:nth-child(1){background-size:cover ;background: url(../img/01shouye/shopping_01.png);}
+.bes-list>li:nth-child(2){background-size:cover ;background:url(../img/01shouye/shopping_02.png) ;}
+.bes-list>li:nth-child(3){background-size:cover ;background: url(../img/01shouye/shopping_03.png);}
+.bes-list>li:nth-child(4){background-size:cover ;background: url(../img/01shouye/shopping_04.png);}
+.bes-list>li:nth-child(5){background-size:cover ;background: url(../img/01shouye/shopping_05.png);}
+.bes-list>li:nth-child(6){background-size:cover ;background: url(../img/01shouye/shopping_06.png);}
+.bes-list>li:nth-child(7){background-size:cover ;background: url(../img/01shouye/shopping_07.png);}
+.bes-list>li:nth-child(8){background-size:cover ;background: url(../img/01shouye/shopping_08.png);}
+
+/*----------------网站信息---------------------------------------------------*/
+#last-title{width: 100%;height: 100px;border-bottom: 1px solid silver;text-align: center;color: dimgrey;}
+#last-title>p{display: inline-block;margin: auto;width: 300px;height: 100px;font-size: 25px;font-weight: 800;line-height: 100px;}
+#last-footer{position: relative; margin: auto;width: 1200px;height: 200px;}
+#footer-list{position: absolute; width: 51%;height: 100%;display: inline-block;color: dimgray;}
+#footer-list>ul{width: 20%;height: 100%;float: left;margin:15px;}
+#footer-list>ul>li{font-size:14px ;margin:5px 0;}
+#footer-list>ul>li:hover{color: goldenrod;cursor: pointer;}
+#footer-img{position: absolute; width: 24%;height: 100%;text-align: center;left: 620px;top: 0;border-left: 1px solid silver ;}
+#footer-img>img{margin: auto;}
+#footer-tel{position: absolute;right:0;top: 0; width: 24%;height: 100%;display: inline-block;border-left: 1px solid silver ;text-align: center;color: #cd6d6e;}
+#tel{display: inline-block;width: 42px;height: 40px;background:url(../img/01shouye/newtel.png) ;margin:50px 0 0 50px;}
+#footer-tel>span{display: inline-block;font-size: 25px;}
+#footer-tel>p{font-size: 20px;}
+#last-img{width: 100%;height: 100px;margin: auto;border-top:1px solid silver ;text-align: center;font-size: 15px;color: gray;line-height: 50px;}
+
+
+/*----------------正方体---------------------------------------------------*/
+#boxex{position: relative; width: 1310px;height: 500px;margin: auto;transform-style: preserve-3d;transform: rotateX(00deg);transition: all 2s;perspective-origin: 50% 50%;  }
+#boxex>div{position: absolute; width: 1300px;height: 500px;left: 0;right: 0;top: 0;bottom: 0;margin: auto;border-radius:40px ;}
+#ex1{background: whitesmoke;transform: rotatex(0deg) translateZ(250px);}
+#ex2{background: whitesmoke;transform: rotatex(90deg) translateZ(250px);}
+#ex3{background: whitesmoke;transform: rotatex(180deg) translateZ(250px);}
+#ex4{background:whitesmoke;transform: rotatex(270deg) translateZ(250px);}

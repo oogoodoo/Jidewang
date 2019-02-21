@@ -1,0 +1,33 @@
+*{margin: 0 ;padding: 0;}
+ul{list-style: none;}
+#box1{width: 1200px;height: 80px;margin: auto;}
+#box1>img{cursor: pointer;}
+#box2{width: 100%;height: 550px;background:url(../img/03login/timg.jpg);border:1px solid #E60111;}
+
+#regbox{width: 800px;height: 550px;background: white;margin: auto;border-radius:20px ;position: relative;}
+#regbox>h1{text-align: center;color: #A52A2A;border-bottom: 1px solid #A52A2A;padding: 10px;box-sizing: border-box;width: 50%;margin: auto;}
+#regbox>div{margin: 10px 150px;width: 450px;height: 35px;border:1px solid darkgray;position: relative;}
+#regbox>div:nth-child(2)::after{content: "*";position: absolute;width: 40px;height: 40px;color: red;right: -50px;top: 0;font-size:35px;}
+#regbox>div:nth-child(4)::after{content: "*";position: absolute;width: 40px;height: 40px;color: red;right: -50px;top: 0;font-size:35px;}
+#regbox>div:nth-child(6)::after{content: "*";position: absolute;width: 40px;height: 40px;color: red;right: -50px;top: 0;font-size:35px;}
+#regbox>div:nth-child(2)>input{float: right;width: 350px;height: 30px;border: none;outline: none;}
+#regbox>div:nth-child(4)>input{float: right;width: 350px;height: 30px;border: none;outline: none;}
+#regbox>div:nth-child(6)>input{float: right;width: 350px;height: 30px;border: none;outline: none;}
+#regbox>div:nth-child(2)>div{line-height: 30px;text-align: center;color: gray;background: silver;width: 80px;height: 35px;}
+#regbox>div:nth-child(4)>div{line-height: 30px;text-align: center;color: gray;background: silver;width: 80px;height: 35px;}
+#regbox>div:nth-child(6)>div{line-height: 30px;text-align: center;color: gray;background: silver;width: 80px;height: 35px;}
+
+#coden{border-right: 1px solid silver;width:90px ;height: 35px;line-height: 30px;text-align: center;}
+#code{width: 204px;height: 35px;background: tan;float: right;cursor: pointer;text-align: center;color: black;font-weight: 800;line-height: 30px;}
+#codetex{width:150px;height: 34px;border: none;outline: none;float: right;text-align: center;}
+
+#che{margin-left:300px ;}
+#htt{color: #FF0000;}
+#regbtn{background: #EC3B3B;color: whitesmoke;text-align: center;font-size: 24px;}
+#regbtn:hover{background: #FF0000;cursor: pointer;}
+#gohome{position: absolute;right: 40px;bottom: 20px;}
+#gohome>span{font-size: 50px;color: #EC3B3B;cursor: pointer;font-weight: 800;}
+#gohome>span:hover{color: red;}
+
+#box6{width: 100%;height: 100px;background: #d5d5d5;}
+#last-img{width: 100%;height: 100px;margin: auto;border-top:1px solid silver ;text-align: center;font-size: 15px;color: gray;line-height: 50px;}

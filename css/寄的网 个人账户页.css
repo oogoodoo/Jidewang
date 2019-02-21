@@ -1,0 +1,90 @@
+*{margin: 0 ;padding: 0;}
+ul{list-style: none;}
+/*----------------用户信息--------------------------------------------------*/
+#box{width: 100%;height: 30px;background: silver;}
+#usernav{width: 800px;height: 30px;margin: auto;background: silver;line-height: 30px;}
+#usernavL{width: 200px;height: 100%;float: left;color:darkslategray;font-weight:600 ;}
+#usernavR{width:400px;height: 100%;float: right;}
+#usernavR>ul>li{float: left;height: 30px;text-align: center;margin: 0 10px;}
+#usernavR>ul>li:nth-child(1){}
+#usernavR>ul>li:nth-child(2){width: 60px;}
+#usernavR>ul>li:nth-child(3){width: 60px;}
+#usernavR>ul>li:hover{border-bottom: 2px solid  #E60111;color: #E60111;font-weight:600 ;cursor: pointer;}
+#usernavR>ul>li:nth-child(3):hover#buycar:after{background-position: -147px -150px;}
+
+#buycar{position: relative;}
+#buycar::after{content: ""; position: absolute;right: -20px;top: 2px;width: 25px;height: 25px;background: url(../img/01shouye/icon.png);background-position: -172px -149px;}
+
+#box1{width: 1200px;height: 130px;margin: auto;position: relative;}
+#box2{width: 100%;height: 550px; background: silver;border:1px solid silver ;}
+#box6{width: 100%;height: 400px;background: #d5d5d5;}
+
+/*----------------搜索栏---------------------------------------------------*/
+#box1>img:nth-child(1){position: absolute;left: 0;top: 20px;cursor: pointer;}
+#box1>img:nth-child(3){position: absolute;right: 0;top: 5px;}
+#bgsearch{position: absolute;left: 350px;bottom: 50px; width: 500px;height: 30px;border:3px solid #ec3b3b;}
+#seL{float: left;width: 60px;height: 30px;color:#ec3b3b ;text-align: center;line-height: 25px;font-size:13px ;}
+#seR{float: right;width: 100px;height: 30px;background:#ec3b3b ;color: white;font-size:17px ;font-weight:700 ;text-align: center;line-height: 30px;}
+#seR:hover{background: red;cursor: pointer;}
+#setxt{width:340px;height: 30px;border: none;outline: none;}
+#seun{position: absolute;left: 50px;bottom: -30px;color:#ec3b3b; width: 300px;height: 20px;font-size: 14px;}
+#seun>span{margin-left: 10px;cursor: pointer;}
+#seun>span:hover{color: red;}
+/*----------------个人用户---------------------------------------------------*/
+#usemes{width: 1200px;height: 100%;background: white;margin: auto;}
+#mestitle{width: 100%;height: 70px;background: #E60111;}
+#mestitle>span{margin-left: 100px;line-height: 60px;color: white;}
+#mestitle>span:nth-child(1){font-size: 30px;font-weight: 800;}
+#mestitle>span:nth-child(2){cursor: pointer;}
+#mescon{width: 100%;height:460px ;background: whitesmoke;}
+#conL{float: left;width: 200px;height: 480px;padding: 10px;box-sizing: border-box;}
+
+#fn1-tit{width: 100%;height: 35px;border: 1px solid gray;padding: 5px;box-sizing: border-box;background:#A52A2A;color: white;font-weight: 800;font-size: 18px;}
+#fn1-con{width:100% ;border: 1px solid gray;}
+#fn1-con>li{padding: 5px;box-sizing: border-box;cursor: pointer;background: white;}
+#fn1-con>li:hover{color: red;}
+#fn2-tit{width: 100%;height: 35px;border: 1px solid gray;margin-top: 10px;padding: 5px;box-sizing: border-box;background:#A52A2A;color: white;font-weight: 800;font-size: 18px;}
+#fn2-con{width:100% ;border: 1px solid gray;}
+#fn2-con>li{padding: 5px;box-sizing: border-box;cursor: pointer;background: white;}
+#fn2-con>li:hover{color: red;}
+#conM{float: left;width:650px;height: 480px;margin-left: 20px;padding: 5px;box-sizing: border-box;}
+#mybuy{width: 100%;height: 150px;background: white;border: 1px solid gray;}
+#mycon{width: 100%;height: 100px;background: lightgoldenrodyellow;}
+#mycon>img{width:100px;height: 100px;border-radius:50% ;padding: 5px;box-sizing: border-box;float: left;}
+#mycon>strong{line-height: 60px;font-size: 25px;}
+#mycon>span{float: right;line-height: 80px;color: darkblue;}
+#mywi{width: 100%;height: 50px;background: white;color: darkgray;}
+#mywi>span{margin-left: 55px;line-height: 40px;cursor: pointer;}
+#mywi>span:hover{color: red;}
+#conR{float: right;width: 300px;height: 480px;padding: 5px;box-sizing: border-box;}
+#cal{width: 100%;height: 250px;border: 1px solid green;}
+#cal-tit{width: 100%;height: 50px;background: lightgreen;text-align: center;color: white;font-size: 30px;}
+#cal-con{width: 100%;height: 200px;background: white;}
+#cal-con>p{text-align: center;color: limegreen;}
+#cal-con>p:nth-child(1){font-size: 100px;}
+#cal-con>p:nth-child(2){}
+#cal-con>p:nth-child(3){font-weight: 800;font-size: 30px;}
+
+/*----------------网站信息---------------------------------------------------*/
+#last-title{width: 100%;height: 100px;border-bottom: 1px solid silver;text-align: center;color: dimgrey;}
+#last-title>p{display: inline-block;margin: auto;width: 300px;height: 100px;font-size: 25px;font-weight: 800;line-height: 100px;}
+#last-footer{position: relative; margin: auto;width: 1200px;height: 200px;}
+#footer-list{position: absolute; width: 51%;height: 100%;display: inline-block;color: dimgray;}
+#footer-list>ul{width: 20%;height: 100%;float: left;margin:15px;}
+#footer-list>ul>li{font-size:14px ;margin:5px 0;}
+#footer-list>ul>li:hover{color: goldenrod;cursor: pointer;}
+#footer-img{position: absolute; width: 24%;height: 100%;text-align: center;left: 620px;top: 0;border-left: 1px solid silver ;}
+#footer-img>img{margin: auto;}
+#footer-tel{position: absolute;right:0;top: 0; width: 24%;height: 100%;display: inline-block;border-left: 1px solid silver ;text-align: center;color: #cd6d6e;}
+#tel{display: inline-block;width: 42px;height: 40px;background:url(../img/01shouye/newtel.png) ;margin:50px 0 0 50px;}
+#footer-tel>span{display: inline-block;font-size: 25px;}
+#footer-tel>p{font-size: 20px;}
+#last-img{width: 100%;height: 100px;margin: auto;border-top:1px solid silver ;text-align: center;font-size: 15px;color: gray;line-height: 50px;}
+
+
+
+
+
+
+
+
